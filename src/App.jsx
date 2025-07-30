@@ -152,8 +152,13 @@ const App = () => {
       <nav className="nav">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="logo-text">SA</span>
+            <img 
+              src={profileImg} 
+              alt="Sudharson Logo" 
+              className="logo-img"
+            />
           </div>
+
           <div className="nav-links">
             {['home', 'about', 'skills', 'works', 'experience', 'contact'].map(section => (
               <button
