@@ -541,7 +541,7 @@ body {
 .skill-icon {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #3b82f6, #1e40af);
+ background: linear-gradient(135deg, #3b82f6, #1e40af);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -592,6 +592,35 @@ body {
 .dark .skill-percentage {
   color: #00d4ff;
 }
+/* ✅ Better Responsive Design for Skills Section */
+@media (max-width: 768px) {
+  .skills-columns {
+    grid-template-columns: 1fr;   /* stack vertically */
+    gap: 2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;   /* one skill per row */
+  }
+}
+
+/* ✅ For very small screens (iPhone SE, etc.) */
+@media (max-width: 480px) {
+  .skill-item {
+    padding: 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 
 /* Works Section */
 .works-section {

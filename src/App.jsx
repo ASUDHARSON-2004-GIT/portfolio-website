@@ -4,6 +4,7 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import profileImg from './assets/profile.jpg';
+
 import exCoverImg from './assets/ex-pj-cover.jpg';
 import emailjs from "@emailjs/browser";
 
@@ -188,7 +189,7 @@ const App = () => {
                 <span className="hero-name">SUDHARSON A</span>
               </h1>
               <p className="hero-subtitle">
-                AI-Powered Web Developer | Building Smart, Dynamic Websites with Modern Tools & Automation
+                AI‑Powered Web Developer | Building Smart, Scalable & Dynamic Websites by Combining Modern Tools, AI‑Driven Automation, and a Passion for Innovative Problem Solving.
               </p>
               <div className="hero-buttons">
                 <button className="btn btn-primary" onClick={handleDownloadResume}>
