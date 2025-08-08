@@ -99,12 +99,12 @@ const App = () => {
       tech: ['Lovable AI', 'React', 'Chart Js', 'Tailwind CSS']
     },
     {
-      title: 'Portfolio Dashboard',
-      description: 'Interactive dashboard for portfolio management with real-time analytics.',
-      image: 'https://i.pinimg.com/originals/01/1c/19/011c196a4da92e53d7178cd683ba6154.jpg',
-      github: 'https://github.com/',
+      title: 'E-Commerce web site.',
+      description: 'On progess.',
+      image: 'https://themefisher.com/blog-thumb/e-commerce-website-admin-panel-templates.webp',
+      github: 'https://github.com/ASUDHARSON-2004-GIT/E-Commerce',
       demo: 'https://e-commerce-eight-beryl-24.vercel.app',
-      tech: ['React.js', 'Fire base', 'Tailwind CSS', 'Mongo Db','Copilot']
+      tech: ['React.js', 'Fire base', 'Tailwind CSS', 'Mongo Db','Copilot','Vercel']
     }
   ];
 
