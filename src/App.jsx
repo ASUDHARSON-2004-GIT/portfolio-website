@@ -88,7 +88,7 @@ const App = () => {
       image: 'https://plus.unsplash.com/premium_photo-1684581214880-2043e5bc8b8b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       github: 'https://github.com/ASUDHARSON-2004-GIT/blogging-platform.git',
       demo: 'https://my-blog-plat-form.netlify.app',
-      tech: ['Bolt AI', 'Chat-Gpt', 'React', 'Supabase', ['Mongo Db']]
+      tech: ['Bolt AI', 'Chat-Gpt', 'React', 'Supabase', 'Mongo Db','Redux','Node.js']
     },
     {
       title: 'Excel-Analytic platform',
@@ -103,8 +103,8 @@ const App = () => {
       description: 'Interactive dashboard for portfolio management with real-time analytics.',
       image: 'https://i.pinimg.com/originals/01/1c/19/011c196a4da92e53d7178cd683ba6154.jpg',
       github: 'https://github.com/',
-      demo: '#',
-      tech: ['React', 'D3.js', 'Python', 'FastAPI']
+      demo: 'https://e-commerce-eight-beryl-24.vercel.app',
+      tech: ['React.js', 'Fire base', 'Tailwind CSS', 'Mongo Db','Copilot']
     }
   ];
 
